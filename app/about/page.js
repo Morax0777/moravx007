@@ -11,7 +11,7 @@ export default function about() {
                     <img src="/img/m.png" class="card-img-top custom-img"
                         alt="Card Image"></img>
                     <div class="card-body text-center">
-                        <h5 class="card-title">เกมแนะนำ</h5>
+                        <h5 class="card-title">เกเกเกเกเกแนะนำ</h5>
                         <p class="card-text">lllllll</p>
                         <a href="#" class="btn btn-primary">Button</a>
                     </div>
@@ -23,7 +23,7 @@ export default function about() {
                     <img src="/img/a.png" class="custom-img"
                         alt="Card Image"></img>
                     <div class="card-body text-center">
-                        <h5 class="card-title">เกมแนะนำ</h5>
+                        <h5 class="card-title">เกเกเกเกเกแนะนำ</h5>
                         <p class="card-text">jjjjjj</p>
                         <a href="#" class="btn btn-primary">Button</a>
                     </div>
@@ -35,7 +35,7 @@ export default function about() {
                     <img src="/img/r.png" class="card-img-top custom-img"
                         alt="Card Image"></img>
                     <div class="card-body text-center">
-                        <h5 class="card-title">เกมแนะนำ</h5>
+                        <h5 class="card-title">เกเกเกเกเกแนะนำ</h5>
                         <p class="card-text">hhhhh</p>
                         <a href="#" class="btn btn-primary">Button</a>
                     </div>
