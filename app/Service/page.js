@@ -18,7 +18,7 @@ export default function About() {
             About
           </h2>
           <img
-            src="/img/11.jpg"
+            src="/img/544.jpg"
             className="img-fluid profile-pic mb-4"
             style={{
               border: '2px solid #ddd', // สีขอบรูปภาพ

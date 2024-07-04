@@ -1,28 +1,49 @@
-
+// app/components/Nav.js
 import Link from "next/link";
+import styles from "./Nav.module.css";
 
 export default function Nav() {
   return (
     <>
-        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
-        <div class="col-md-3 mb-2 mb-md-0">
-            <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
-            </a>
+      <header className="d-flex flex-wrap align-items-center justify-content-between py-3 mb-4 border-bottom">
+        <div className="container-fluid">
+          <div className="row align-items-center">
+            <div className="col-6 col-md-3 mb-2 mb-md-0">
+              {/* Replace the text with your logo image */}
+              <a href="/" className={`d-inline-flex ${styles.logoLink}`}>
+                <img src="/img/555.jpg" alt="Logo" className={styles.logo} />
+              </a>
+            </div>
+            <div className="col-6 col-md-9">
+              <nav className="navbar navbar-expand-md">
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span className="navbar-toggler-icon"></span>
+                </button>
+                <div className="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul className="navbar-nav ms-auto">
+                    <li className="nav-item">
+                      <a href="/" className="nav-link px-2 link-secondary">Home</a>
+                    </li>
+                    <li className="nav-item">
+                      <Link href="/about" className="nav-link px-2">About</Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link href="/Service" className="nav-link px-2">Service</Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link href="/Contact" className="nav-link px-2">Contact</Link>
+                    </li>
+                  </ul>
+                  <div className="d-flex ms-md-3">
+                    <button type="button" className="btn btn-outline-primary me-2">Login</button>
+                    <button type="button" className="btn btn-primary">Sign-up</button>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
         </div>
-
-        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-            <li><a href="/" class="nav-link px-2 link-secondary">Home</a></li>
-            <li><a href="#" class="nav-link px-2">Features</a></li>
-            <li><a href="#" class="nav-link px-2">Pricing</a></li>
-            <li><a href="#" class="nav-link px-2">FAQs</a></li>
-            <li><Link href="/about" class="nav-link px-2">About</Link></li>
-        </ul>
-
-        <div class="col-md-3 text-end">
-            <button type="button" class="btn btn-outline-primary me-2">Login</button>
-            <button type="button" class="btn btn-primary">Sign-up</button>
-        </div>
-        </header>
+      </header>
     </>
   );
 }

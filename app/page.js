@@ -1,6 +1,6 @@
-
+// fsdfdsfsfdstesttest
 import Navbar from '../app/component/nav';
-
+import Footer from '../app/component/footer';
 export default function Home() {
   return (
    <>
@@ -24,7 +24,47 @@ export default function Home() {
         <span class="visually-hidden">Next</span>
       </button>
       </div>
+      <br></br>
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <img src="/img/11.jpg" class="card-img-top custom-img"
+                        alt="Card Image"></img>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Furina</h5>
+                        <p class="card-text">ตัวละครระดับ 5 ดาว</p>
+                        <a href="#" class="btn btn-primary">Button</a>
+                    </div>
+                </div>
+            </div>
 
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <img src="/img/11.jpg" class="custom-img"
+                        alt="Card Image"></img>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Furina</h5>
+                        <p class="card-text">ตัวละครระดับ 5 ดาว</p>
+                        <a href="#" class="btn btn-primary">Button</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <img src="/img/11.jpg" class="card-img-top custom-img"
+                        alt="Card Image"></img>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Furina</h5>
+                        <p class="card-text">ตัวละครระดับ 5 ดาว</p>
+                        <a href="#" class="btn btn-primary">Button</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <Footer />
    </>
   );
 }
