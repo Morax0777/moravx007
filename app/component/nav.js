@@ -11,7 +11,7 @@ export default function Nav() {
             <div className="col-6 col-md-3 mb-2 mb-md-0">
               {/* Replace the text with your logo image */}
               <a href="/" className={`d-inline-flex ${styles.logoLink}`}>
-                <img src="/img/555.jpg" alt="Logo" className={styles.logo} />
+                <img src="/img/555.jpg" alt="Logo" />
                 Furina
               </a>
             </div>
