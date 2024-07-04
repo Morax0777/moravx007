@@ -13,6 +13,7 @@ export default function Nav() {
               <a href="/" className={`d-inline-flex ${styles.logoLink}`}>
                 <img src="/img/555.jpg" alt="Logo" className={styles.logo} />
                 Furina
+              </a>
             </div>
             <div className="col-6 col-md-9">
               <nav className="navbar navbar-expand-md">
