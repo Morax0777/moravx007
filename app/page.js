@@ -1,6 +1,7 @@
 // fsdfdsfsfdstesttest
-import Navbar from '../app/component/nav';
-import Footer from '../app/component/footer';
+
+import Navbar from '/app/component/nav';
+import Footer from '/app/component/footer';
 export default function Home() {
   return (
    <>
@@ -64,6 +65,7 @@ export default function Home() {
             </div>
         </div>
     </div>
+
     <Footer />
    </>
   );
